@@ -1,0 +1,136 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 4
+Job counts:
+	count	jobs
+	1	all
+	12	salmon_quant
+	13
+
+rule salmon_quant:
+    input: reads/SRX2236945_1.fastq, reads/SRX2236945_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236945/quant.sf
+    jobid: 4
+    wildcards: sample=SRX2236945
+
+Submitted job 4 with external jobid 'Submitted batch job 6565082'.
+
+rule salmon_quant:
+    input: reads/SRX2236955_1.fastq, reads/SRX2236955_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236955/quant.sf
+    jobid: 2
+    wildcards: sample=SRX2236955
+
+Submitted job 2 with external jobid 'Submitted batch job 6565085'.
+
+rule salmon_quant:
+    input: reads/SRX2236952_1.fastq, reads/SRX2236952_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236952/quant.sf
+    jobid: 3
+    wildcards: sample=SRX2236952
+
+Submitted job 3 with external jobid 'Submitted batch job 6565086'.
+
+rule salmon_quant:
+    input: reads/SRX2236946_1.fastq, reads/SRX2236946_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236946/quant.sf
+    jobid: 5
+    wildcards: sample=SRX2236946
+
+Submitted job 5 with external jobid 'Submitted batch job 6565088'.
+Finished job 3.
+1 of 13 steps (8%) done
+
+rule salmon_quant:
+    input: reads/SRX2236951_1.fastq, reads/SRX2236951_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236951/quant.sf
+    jobid: 7
+    wildcards: sample=SRX2236951
+
+Submitted job 7 with external jobid 'Submitted batch job 6565749'.
+Finished job 5.
+2 of 13 steps (15%) done
+
+rule salmon_quant:
+    input: reads/SRX2236950_1.fastq, reads/SRX2236950_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236950/quant.sf
+    jobid: 1
+    wildcards: sample=SRX2236950
+
+Submitted job 1 with external jobid 'Submitted batch job 6566494'.
+Finished job 2.
+3 of 13 steps (23%) done
+
+rule salmon_quant:
+    input: reads/SRX2236953_1.fastq, reads/SRX2236953_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236953/quant.sf
+    jobid: 9
+    wildcards: sample=SRX2236953
+
+Submitted job 9 with external jobid 'Submitted batch job 6566741'.
+Finished job 4.
+4 of 13 steps (31%) done
+
+rule salmon_quant:
+    input: reads/SRX2236947_1.fastq, reads/SRX2236947_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236947/quant.sf
+    jobid: 11
+    wildcards: sample=SRX2236947
+
+Submitted job 11 with external jobid 'Submitted batch job 6567752'.
+Finished job 7.
+5 of 13 steps (38%) done
+
+rule salmon_quant:
+    input: reads/SRX2236956_1.fastq, reads/SRX2236956_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236956/quant.sf
+    jobid: 10
+    wildcards: sample=SRX2236956
+
+Submitted job 10 with external jobid 'Submitted batch job 6567907'.
+Finished job 1.
+6 of 13 steps (46%) done
+
+rule salmon_quant:
+    input: reads/SRX2236948_1.fastq, reads/SRX2236948_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236948/quant.sf
+    jobid: 8
+    wildcards: sample=SRX2236948
+
+Submitted job 8 with external jobid 'Submitted batch job 6567948'.
+Finished job 9.
+7 of 13 steps (54%) done
+
+rule salmon_quant:
+    input: reads/SRX2236949_1.fastq, reads/SRX2236949_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236949/quant.sf
+    jobid: 6
+    wildcards: sample=SRX2236949
+
+Submitted job 6 with external jobid 'Submitted batch job 6568912'.
+Finished job 11.
+8 of 13 steps (62%) done
+
+rule salmon_quant:
+    input: reads/SRX2236954_1.fastq, reads/SRX2236954_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SRX2236954/quant.sf
+    jobid: 12
+    wildcards: sample=SRX2236954
+
+Submitted job 12 with external jobid 'Submitted batch job 6570335'.
+Finished job 10.
+9 of 13 steps (69%) done
+Finished job 6.
+10 of 13 steps (77%) done
+Finished job 12.
+11 of 13 steps (85%) done
+Finished job 8.
+12 of 13 steps (92%) done
+
+localrule all:
+    input: quants/SRX2236945/quant.sf, quants/SRX2236946/quant.sf, quants/SRX2236947/quant.sf, quants/SRX2236948/quant.sf, quants/SRX2236949/quant.sf, quants/SRX2236950/quant.sf, quants/SRX2236951/quant.sf, quants/SRX2236952/quant.sf, quants/SRX2236953/quant.sf, quants/SRX2236954/quant.sf, quants/SRX2236955/quant.sf, quants/SRX2236956/quant.sf
+    jobid: 0
+
+Finished job 0.
+13 of 13 steps (100%) done
+Complete log: .snakemake/log/2019-01-12T134645.912808.snakemake.log
