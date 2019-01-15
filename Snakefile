@@ -10,7 +10,7 @@ rule salmon_quant:
     input:
         r1 = "reads/{sample}_1.fastq",
         r2 = "reads/{sample}_2.fastq",
-        index = "/proj/milovelab/anno/gencode.v29_salmon_0.12.0"
+        index = "/proj/milovelab/anno/gencode.vM20_salmon_0.12.0"
     output:
         "quants/{sample}/quant.sf"
     params:
