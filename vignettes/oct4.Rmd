@@ -1,0 +1,5 @@
+<!--
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{Salmon quantifications for condition OCT4 knockdown}
+-->
+
