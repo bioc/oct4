@@ -6,7 +6,7 @@ Maintainer: Michael Love <michaelisaiahlove@gmail.com>
 Description: This package provides the output of running Salmon
   on a set of 12 RNA-seq samples from King & Klose, "The pioneer 
   factor OCT4 requires the chromatin remodeller BRG1 to support 
-  gene regulatory element function in mouse embryonic stem cells"
+  gene regulatory element function in mouse embryonic stem cells",
   published in eLIFE, March 2017. For details on version numbers 
   and how the samples were processed see the package vignette.
 biocViews: ExperimentData, SequencingData, RNASeqData
