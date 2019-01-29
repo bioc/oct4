@@ -1,0 +1,65 @@
+[2019-01-15 11:22:02.461] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2019-01-15 11:22:02.461] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2019-01-15 11:22:02.461] [jointLog] [info] parsing read library format
+[2019-01-15 11:22:02.461] [jointLog] [info] There is 1 library.
+[2019-01-15 11:22:02.498] [jointLog] [info] Loading Quasi index
+[2019-01-15 11:22:02.498] [jointLog] [info] Loading 32-bit quasi index
+[2019-01-15 11:22:10.459] [jointLog] [info] done
+[2019-01-15 11:22:10.459] [jointLog] [info] Index contained 137,271 targets
+[2019-01-15 11:22:12.570] [jointLog] [info] Automatically detected most likely library type as ISR
+[2019-01-15 11:27:25.799] [jointLog] [info] Thread saw mini-batch with a maximum of 5.82% zero probability fragments
+[2019-01-15 11:27:25.849] [jointLog] [info] Thread saw mini-batch with a maximum of 5.64% zero probability fragments
+[2019-01-15 11:27:25.857] [jointLog] [info] Thread saw mini-batch with a maximum of 5.84% zero probability fragments
+[2019-01-15 11:27:25.877] [jointLog] [info] Thread saw mini-batch with a maximum of 5.72% zero probability fragments
+[2019-01-15 11:27:25.894] [jointLog] [info] Thread saw mini-batch with a maximum of 5.94% zero probability fragments
+[2019-01-15 11:27:25.925] [jointLog] [info] Thread saw mini-batch with a maximum of 5.70% zero probability fragments
+[2019-01-15 11:27:26.139] [jointLog] [info] Computed 258,841 rich equivalence classes for further processing
+[2019-01-15 11:27:26.139] [jointLog] [info] Counted 26,876,941 total reads in the equivalence classes 
+[2019-01-15 11:27:26.149] [jointLog] [info] Mapping rate = 52.4711%
+
+[2019-01-15 11:27:26.149] [jointLog] [info] finished quantifyLibrary()
+[2019-01-15 11:27:26.155] [jointLog] [info] Starting optimizer
+[2019-01-15 11:27:26.254] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2019-01-15 11:27:26.272] [jointLog] [info] iteration = 0 | max rel diff. = 5911.29
+[2019-01-15 11:27:26.453] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2019-01-15 11:27:26.140] [fileLog] [info] 
+At end of round 0
+==================
+Observed 51222331 total fragments (51222331 in most recent round)
+
+[2019-01-15 11:29:30.118] [jointLog] [info] Computed expected counts (for bias correction)
+[2019-01-15 11:29:30.118] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2019-01-15 11:29:41.222] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2019-01-15 11:29:55.109] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2019-01-15 11:30:12.173] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2019-01-15 11:30:24.426] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2019-01-15 11:30:34.198] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2019-01-15 11:30:45.687] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2019-01-15 11:30:51.219] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2019-01-15 11:30:52.467] [jointLog] [info] iteration = 100 | max rel diff. = 9.72092
+[2019-01-15 11:30:53.843] [jointLog] [info] iteration = 200 | max rel diff. = 7.81131
+[2019-01-15 11:30:55.217] [jointLog] [info] iteration = 300 | max rel diff. = 10.58
+[2019-01-15 11:30:56.593] [jointLog] [info] iteration = 400 | max rel diff. = 0.115296
+[2019-01-15 11:30:57.967] [jointLog] [info] iteration = 500 | max rel diff. = 5.35253
+[2019-01-15 11:30:59.341] [jointLog] [info] iteration = 600 | max rel diff. = 0.533561
+[2019-01-15 11:31:00.714] [jointLog] [info] iteration = 700 | max rel diff. = 0.207409
+[2019-01-15 11:31:02.198] [jointLog] [info] iteration = 800 | max rel diff. = 0.0636489
+[2019-01-15 11:31:03.769] [jointLog] [info] iteration = 900 | max rel diff. = 0.0177583
+[2019-01-15 11:31:05.246] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0213017
+[2019-01-15 11:31:06.623] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.124451
+[2019-01-15 11:31:08.150] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0714687
+[2019-01-15 11:31:09.716] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0625423
+[2019-01-15 11:31:11.356] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0458604
+[2019-01-15 11:31:11.702] [jointLog] [info] iteration = 1,423 | max rel diff. = 0.00630331
+[2019-01-15 11:31:11.716] [jointLog] [info] Finished optimizer
+[2019-01-15 11:31:11.716] [jointLog] [info] writing output 
+
+[2019-01-15 11:31:11.972] [jointLog] [info] Starting Gibbs Sampler
+[2019-01-15 11:31:31.779] [jointLog] [info] Finished Gibbs Sampler

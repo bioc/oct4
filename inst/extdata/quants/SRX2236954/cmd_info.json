@@ -1,0 +1,12 @@
+{
+    "salmon_version": "0.12.0",
+    "index": "/proj/milovelab/anno/gencode.vM20_salmon_0.12.0",
+    "libType": "A",
+    "threads": "6",
+    "gcBias": [],
+    "numGibbsSamples": "20",
+    "output": "quants/SRX2236954",
+    "mates1": "reads/SRX2236954_1.fastq",
+    "mates2": "reads/SRX2236954_2.fastq",
+    "auxDir": "aux_info"
+}
