@@ -1,5 +1,5 @@
 <!--
 %\VignetteEngine{knitr::knitr}
-%\VignetteIndexEntry{Salmon quantifications for condition OCT4 knockdown}
+%\VignetteIndexEntry{Salmon quantifications for condition OCT4 knockdown in mouse ESCs}
 -->
 
