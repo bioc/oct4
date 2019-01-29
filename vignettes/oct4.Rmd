@@ -14,7 +14,7 @@ published in eLIFE, March 2017
 
 All 12 samples from the experiment were re-quantified, which consists
 of three replicates each of OCT4 conditional cells treated with 1
-µg/mL doxycycline for 24 hr and controls (see paper Materials and
+micrograms/mL doxycycline for 24 hr and controls (see paper Materials and
 Methods), and Brg1 conditional cells treated with 4-hydroxytamoxifen
 for 72 hr and controls (see paper Materials and Methods).
 
