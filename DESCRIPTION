@@ -1,6 +1,6 @@
 Package: oct4
 Title: Conditional knockdown of OCT4 in mouse ESCs
-Version: 1.7.1
+Version: 1.7.2
 Author: Michael Love
 Maintainer: Michael Love <michaelisaiahlove@gmail.com>
 Description: This package provides the output of running Salmon
@@ -11,6 +11,6 @@ Description: This package provides the output of running Salmon
   and how the samples were processed see the package vignette.
 biocViews: ExperimentData, SequencingData, RNASeqData
 License: GPL (>= 2)
-Suggests: knitr
+Suggests: knitr, markdown
 VignetteBuilder: knitr
 NeedsCompilation: no
