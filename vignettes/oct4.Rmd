@@ -30,8 +30,11 @@ log output in `inst/scripts/snakemake.log`.
 
 The quantification output is in the `inst/extdata/quant`
 directory. The `quant.sf` files have been gzipped to preserve space,
-so they are stored as `quant.sf.gz`. There are 20 Gibbs inferential
-replicates for each sample.
+so they are stored as `quant.sf.gz`. Salmon was run with 20 Gibbs
+inferential replicates per sample (see the Snakefile), but these were
+removed as of version 1.9.1 to reduce the package size, and
+`num_bootstraps` in each `aux_info/meta_info.json` was set to 0
+accordingly.
 
 # Sample information
 
